@@ -1,7 +1,8 @@
 import cv2
 
 #cap = cv2.VideoCapture('cctv.mp4')
-cap = cv2.VideoCapture('in.avi')
+cap = cv2.VideoCapture('pedestrian.mp4')
+# cap = cv2.VideoCapture('in.avi')
 # cap = cv2.VideoCapture(0)
 
 human_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
